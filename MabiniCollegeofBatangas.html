@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mabini College of Batangas</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+    background: rgba(11, 31, 58, 0.9);
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ENROLL BUTTON */
+.enroll-btn {
+    background: #ffc107;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enroll-btn:hover {
+    background: #ff9800;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 20px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.container .card {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* CTA */
+.highlight {
+    background: rgba(11, 31, 58, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.highlight a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SHARE SECTION */
+.share {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.share a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #0b1f3a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: rgba(11, 31, 58, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mabini College of Batangas</h1>
+    <nav>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://docs.google.com/forms/d/1NnW1e0XzymR8tSgXwClEI89xxyHiPY_tXSWPyXj2ABc/viewform" 
+           target="_blank" 
+           class="enroll-btn">
+           Enroll Now
+        </a>
+    </nav>
+</header>
+
+<section class="hero">
+    <img src="banner.jpg" alt="MCB Banner">
+</section>
+
+<div class="highlight">
+    <a href="https://docs.google.com/forms/d/1NnW1e0XzymR8tSgXwClEI89xxyHiPY_tXSWPyXj2ABc/viewform" target="_blank">
+        ENROLL NOW! Be an MCBian — Your Future Starts Here!
+    </a>
+</div>
+
+<section class="section">
+    <div class="container">
+        <h2>Junior High School (Grade 7–10)</h2>
+        <div class="card">
+            <ul>
+                <li>Engaging and interactive learning</li>
+                <li>Values formation and character development</li>
+                <li>Discover talents and develop life skills</li>
+                <li>Safe, supportive and nurturing environment</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- SENIOR HIGH -->
+<section id="programs" class="section">
+<div class="container">
+    <h2>Senior High School (Grade 11–12)</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>STEM</h3>
+            <p>Science, Technology, Engineering, Mathematics</p>
+            <ul>
+                <li>Research and data analysis</li>
+                <li>Technology and innovation</li>
+                <li>Preparation for engineering, medicine, IT</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>ABM</h3>
+            <p>Accountancy, Business, Management</p>
+            <ul>
+                <li>Business and financial literacy</li>
+                <li>Entrepreneurship skills</li>
+                <li>Careers in business and finance</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>GAS</h3>
+            <p>General Academic Strand</p>
+            <ul>
+                <li>Communication and critical thinking</li>
+                <li>Flexible learning path</li>
+                <li>Student-centered approach</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+<!-- COLLEGE -->
+<section class="section">
+<div class="container">
+    <h2>College Programs</h2>
+    <div class="cards">
+        <div class="card"><p>Bachelor in Elementary Education</p></div>
+        <div class="card"><p>Bachelor of Secondary Education (Major in English)</p></div>
+        <div class="card"><p>Bachelor of Science in Business Administration</p></div>
+    </div>
+</div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<div class="highlight">
+    ✔ Quality Education | ✔ Values Formation | ✔ Excellent Facilities | ✔ Bright Future
+</div>
+
+
+
+<!-- SHARE WEBSITE -->
+<div class="share">
+    <h2>Share this Website</h2>
+
+    <!-- Replace YOUR-LINK after publishing -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR-LINK" target="_blank">Share on Facebook</a>
+
+    <a href="https://wa.me/?text=Check this website: YOUR-LINK" target="_blank">Share on WhatsApp</a>
+
+    <a href="https://twitter.com/intent/tweet?url=YOUR-LINK" target="_blank">Share on Twitter</a>
+</div>
+
+<section id="contact" class="section">
+<div class="container">
+    <h2>Contact Us</h2>
+    <p>JP Laurel St., Mabini, Batangas</p>
+</div>
+</section>
+
+<footer>
+    <p>Join the MCB Family Today!</p>
+</footer>
+
+</body>
+</html>
