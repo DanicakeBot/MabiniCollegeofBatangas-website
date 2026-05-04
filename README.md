@@ -5,4 +5,4 @@ It is designed to provide information about the school, its programs, and allow 
 📝 Direct "Enroll Now" button linked to Google Form
 📱 Responsive layout (works on desktop and mobile)
 🔗 Social sharing options
-Live website https://danicakebot.github.io/mcb-website/
+Live website [https://danicakebot.github.io/mcb-website/](https://github.com/DanicakeBot/MabiniCollegeofBatangas-website.git)
